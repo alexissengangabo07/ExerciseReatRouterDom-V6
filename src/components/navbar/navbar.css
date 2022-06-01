@@ -1,0 +1,27 @@
+.links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+#navbar {
+    background-color: #282c34;
+    padding: 20px;
+    padding-left: 0;
+}
+
+.link {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding: 50px 0;
+}
+
+.link:hover {
+    color: #61dafb;
+}
+
+.wrapper {
+    padding: 0 30px;
+}
